@@ -1,4 +1,3 @@
-SELECT notes FROM purchase_orders 
-WHERE notes LIKE Purchase generated based on Order [3-9] 
-   OR notes LIKE Purchase generated based on Order 30 
-ORDER BY notes ASC;
+SELECT notes 
+FROM purchase_orders 
+WHERE notes >= 30 AND notes <= 39;
