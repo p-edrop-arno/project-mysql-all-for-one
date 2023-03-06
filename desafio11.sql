@@ -1,3 +1,3 @@
 SELECT notes 
 FROM purchase_orders 
-WHERE notes >= 30 AND notes <= 39;
+WHERE notes LIKE '%Purchase generated based on Order: 3_%' 
